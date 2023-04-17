@@ -1,4 +1,4 @@
-# '#'的用法
+ # '#'的用法
     #的意义是标题，一级标题为# 二级标题为##依次类推 下面每一个标题将会展示不同级别标题的区别 
 
 ## 二级标题 换行：
@@ -53,8 +53,16 @@ printf("由于`不太好表示 后文中的`使用 点 替代")
 
 ### 格式化
 
-使用反斜杠\'
+    使用反斜杠\'
 
-### 连接 使用 \[]()实现
+### 超链接 使用 \[]()实现
 
-[mygithub](https://github.com/Vi01etttt/Markdown-Grammar-Sample-)
+  [mygithub](https://github.com/Vi01etttt/Markdown-Grammar-Sample-)
+
+### color
+
+  使用\$\color{}{}$
+
+  tips:使用转义符 \ 可以实现空格 否则在颜色内部，空格无法表示
+  
+   $\color{red}{red}$
